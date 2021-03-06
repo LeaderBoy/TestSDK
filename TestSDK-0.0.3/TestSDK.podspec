@@ -1,0 +1,14 @@
+Pod::Spec.new do |s|
+  s.name = "TestSDK"
+  s.version = "0.0.3"
+  s.summary = "\u5728\u6211\u4EEC\u60F3\u8981\u53D1\u5E03\u81EA\u5DF1\u7684pod\u6587\u4EF6\u65F6,\u9700\u8981\u901A\u8FC7Pod Lib Create\u6307\u4EE4\u53BB\u521B\u5EFApod,\u7136\u540E\u6DFB\u52A0\u6587\u4EF6,\u6D4B\u8BD5\u540E\u53D1\u5E03."
+  s.license = {"type"=>"MIT", "file"=>"LICENSE"}
+  s.authors = {"LeaderBoy"=>"748603349@qq.com"}
+  s.homepage = "https://github.com/LeaderBoy/TestSDK"
+  s.description = "\u5728\u6211\u4EEC\u60F3\u8981\u53D1\u5E03\u81EA\u5DF1\u7684pod\u6587\u4EF6\u65F6,\u9700\u8981\u901A\u8FC7Pod Lib Create\u6307\u4EE4\u53BB\u521B\u5EFApod,\u7136\u540E\u6DFB\u52A0\u6587\u4EF6,\u6D4B\u8BD5\u540E\u53D1\u5E03.\u5728\u6211\u4EEC\u60F3\u8981\u53D1\u5E03\u81EA\u5DF1\u7684pod\u6587\u4EF6\u65F6,\u9700\u8981\u901A\u8FC7Pod Lib Create\u6307\u4EE4\u53BB\u521B\u5EFApod,\u7136\u540E\u6DFB\u52A0\u6587\u4EF6,\u6D4B\u8BD5\u540E\u53D1\u5E03.\u5728\u6211\u4EEC\u60F3\u8981\u53D1\u5E03\u81EA\u5DF1\u7684pod\u6587\u4EF6\u65F6,\u9700\u8981\u901A\u8FC7Pod Lib Create\u6307\u4EE4\u53BB\u521B\u5EFApod,\u7136\u540E\u6DFB\u52A0\u6587\u4EF6,\u6D4B\u8BD5\u540E\u53D1\u5E03."
+  s.frameworks = "UIKit"
+  s.source = https://github.com/CocoaPods/Specs.git
+
+  s.ios.deployment_target    = '9.0'
+  s.ios.vendored_framework   = 'ios/TestSDK.framework'
+end

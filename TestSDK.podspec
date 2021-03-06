@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSDK'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.'
 
 # This description is used to generate tags and improve search results.
@@ -36,6 +36,9 @@ Pod::Spec.new do |s|
    s.resource_bundles = {
      'TestSDK' => ['TestSDK/Assets/*.png']
    }
+   
+   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 
    s.public_header_files = 'TestSDK/Classes/**/*.h'
    s.frameworks = 'UIKit'
