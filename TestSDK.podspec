@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TestSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TestSDK.'
+  s.summary          = 'AA short description of TestSDK. short description of TestSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.
                        DESC
 
   s.homepage         = 'https://github.com/LeaderBoy/TestSDK'
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TestSDK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TestSDK' => ['TestSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TestSDK' => ['TestSDK/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit'
+   s.dependency 'AFNetworking', '~> 4.0'
 end
