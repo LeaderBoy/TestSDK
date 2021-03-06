@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSDK'
-  s.version          = '0.0.1'
-  s.summary          = 'AA short description of TestSDK. short description of TestSDK.'
+  s.version          = '0.0.2'
+  s.summary          = '在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.
+  在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.
+
                        DESC
 
   s.homepage         = 'https://github.com/LeaderBoy/TestSDK'
