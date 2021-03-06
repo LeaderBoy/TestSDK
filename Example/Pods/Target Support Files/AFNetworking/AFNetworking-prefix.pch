@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "TestView.h"
-
-FOUNDATION_EXPORT double TestSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char TestSDKVersionString[];
-

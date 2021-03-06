@@ -1,8 +1,8 @@
 {
   "name": "TestSDK",
-  "version": "0.1.0",
-  "summary": "A short description of TestSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "AA short description of TestSDK. short description of TestSDK.",
+  "description": "A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.",
   "homepage": "https://github.com/LeaderBoy/TestSDK",
   "license": {
     "type": "MIT",
@@ -13,10 +13,22 @@
   },
   "source": {
     "git": "https://github.com/LeaderBoy/TestSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TestSDK/Classes/**/*"
+  "source_files": "TestSDK/Classes/**/*",
+  "resource_bundles": {
+    "TestSDK": [
+      "TestSDK/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0"
+    ]
+  }
 }
