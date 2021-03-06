@@ -1,8 +1,8 @@
 {
   "name": "TestSDK",
-  "version": "0.0.1",
-  "summary": "AA short description of TestSDK. short description of TestSDK.",
-  "description": "A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.A short description of TestSDK.",
+  "version": "0.0.2",
+  "summary": "在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.",
+  "description": "在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.在我们想要发布自己的pod文件时,需要通过Pod Lib Create指令去创建pod,然后添加文件,测试后发布.",
   "homepage": "https://github.com/LeaderBoy/TestSDK",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LeaderBoy/TestSDK.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
